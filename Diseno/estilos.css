@@ -1,0 +1,140 @@
+
+  .custom-alert {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff; /* Color del texto */
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; /*Centra al horizontal*/
+
+  }
+
+  .alert-success {
+    background-color: #28a745; /* Color de fondo para alerta de éxito */
+  }
+
+  .alert-error {
+    background-color: #dc3545; /* Color de fondo para alerta de error */
+  }
+
+  .horizontal-label {
+    display: inline-block;
+    margin-right: 10px; /* Ajusta el margen según tu diseño, btn horizontal*/
+  }
+
+
+/*  .navbar {
+    margin-top: 2cm; /* Ajusta este valor según sea necesario 
+}*/
+
+  .custom-label {
+        margin-left: 5cm;
+        margin-bottom: 0.5rem;
+        margin-right: 1cm; 
+        font-weight: bold;
+}
+
+#txtProyecto {
+  width: 550px; /* Ancho automático para que se ajuste al contenido */
+  flex-grow: 2; /* Ocupar espacio disponible restante */
+  margin-right: 0.5cm; /* Margen derecho de 2.5 cm */
+}
+
+.btn {
+  margin-left: 1cm; /* Margen izquierdo de 2.5 cm para el botón */
+}
+/* css/estilo.css */
+
+.bg-custom {
+  background-color: #3C8C3A; /* Cambia al color deseado */
+}
+
+
+.paginacion-personalizada {
+
+  text-align: right;
+  padding-left: 15px;
+}
+
+.paginacion-personalizada .page-link {
+  color: #80A681; /* Cambia el color del texto en la paginación a verde */
+}
+
+.paginacion-personalizada .page-item.disabled .page-link {
+  color: #6c757d;
+}
+
+.paginacion-personalizada .page-item.active .page-link {
+  background-color: #3E733C;
+  border-color: #3E733C;
+}
+
+.navbar-nav.ml-auto {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.navbar-nav.ml-auto .nav-item {
+  margin-left: 10px; /* Espacio entre los elementos */
+}
+/* Estilos para el footer */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* CSS para estados de productos */
+.completado {
+  font-weight: bold; /* Texto en negritas */
+  color: green; /* Color verde para completado */
+}
+
+.pendiente {
+  font-weight: bold; /* Texto en negritas */
+  color: red; /* Color rojo para pendiente */
+}
+
+.sin-registro {
+  font-weight: bold; /* Texto en negritas */
+  color: black; /* Color amarillo para sin registro */
+}
+
+.parcial {
+  font-weight: bold; /* Texto en negritas */
+  color: blue; /* Color azul para parcial */
+}
+
+.calidad{
+  font-weight: bold; /* Texto en negritas */
+  color:#e7b731; /* Color azul para parcial */
+}
+
+.recubrimiento{
+  font-weight: bold; /* Texto en negritas */
+  color:#8B4513; /* Color azul para parcial */
+}
+
+.entregado{
+  font-weight: bold; /* Texto en negritas */
+  color:#006400; /* Color azul para parcial */
+}
+
+.disponible{
+  font-weight: bold; /* Texto en negritas */
+  color:#0073e6; /* Color azul para parcial */
+}
